@@ -1,4 +1,4 @@
-# Geoloc Utility
+# Geoloc Utility [![Build and Test](https://github.com/crank-chips/geoloc/actions/workflows/build_test.yml/badge.svg?branch=main&event=push)](https://github.com/crank-chips/geoloc/actions/workflows/build_test.yml)
 
 CLI utility to fetch geolocation data (city, state, latitude, longitude) for US cities or zip codes using the Open Weather Geocoding API.
 
@@ -14,7 +14,7 @@ CLI utility to fetch geolocation data (city, state, latitude, longitude) for US 
 2. Export the OpenWeather API key to your environment profile config file `~/.zshrc` or `~/.bashrc`:
    ```bash
    echo "export OPENWEATHER_API_KEY='your_api_key'" >> "env_profile_config_file"
-3. Build binary executable: [Building from Source](#building-from-Source)
+3. Build binary executable: [Building from Source](#building-from-source-code)
 4. Run utility:
 
    Use `--location` argument to pass locations list in format `"Location1" "Location2" "LocationN"`, locations must be separated by space
