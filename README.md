@@ -18,16 +18,17 @@ CLI utility to fetch geolocation data (city, state, latitude, longitude) for US 
 4. Run utility:
 
    Use `--location` argument to pass locations list in format `"Location1" "Location2" "LocationN"`, locations must be separated by space
-   Example:
-   ```bash
-   ./dist/geoloc_util --location "Madison, WI" "Chicago, IL" "10001"
    
-  ### Example Output
-   ```
-   Location: Madison, WI - Lat: 43.0731, Lon: -89.4012
-   Location: Chicago, IL - Lat: 41.8781, Lon: -87.6298
-   Location: New York - Lat: 40.7128, Lon: -74.0060
-   ```
+     #### Example Input:
+      ```bash
+     ./dist/geoloc_util --location "Madison, WI" "Chicago, IL" "10001"
+      ```
+     #### Example Output
+      ```
+      Location: Madison, WI - Lat: 43.0731, Lon: -89.4012
+      Location: Chicago, IL - Lat: 41.8781, Lon: -87.6298
+      Location: New York - Lat: 40.7128, Lon: -74.0060
+      ```
 
 ### Notes
 - Scope is limited to US locations.
@@ -49,7 +50,7 @@ CLI utility to fetch geolocation data (city, state, latitude, longitude) for US 
    ```
 
 ## Testing
-   To run all test:
-   ```bash
-      python -m pytest -v
-   ```
+To run all test:
+```bash
+python -m pytest -v
+```
