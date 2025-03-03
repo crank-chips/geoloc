@@ -1,6 +1,6 @@
 # Geoloc Utility [![Build and Test](https://github.com/crank-chips/geoloc/actions/workflows/build_test.yml/badge.svg?branch=main&event=push)](https://github.com/crank-chips/geoloc/actions/workflows/build_test.yml)
 
-CLI utility to fetch geolocation data (city, state, latitude, longitude) for US cities or zip codes using the Open Weather Geocoding API.
+CLI utility to fetch geolocation data (city, state, latitude, longitude) for US cities or zip codes using the [Open Weather Geocoding API](https://openweathermap.org/api/geocoding-api).
 
 ## Requirements
 - To run or build from source code: macOS or Linux, Python 3.12+, `requests`, and `pyinstaller`.
